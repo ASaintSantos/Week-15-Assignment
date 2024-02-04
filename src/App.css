@@ -1,38 +1,200 @@
-.App {
+.userContainer {
+  display: inline-flex;
+  margin-top: 1.5em;
+  margin-left: 1em;
+  border: 1.5px solid gold;
+  padding: 50px;
+  text-align: right;
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(148,241,246,1) 0%, rgba(148,189,246,1) 100.7% );
+}
+
+.userHead {
   text-align: center;
+  padding: 40px;
+  border: 1px solid grey;
+  background-image: radial-gradient( circle 274px at 7.4% 17.9%,  rgba(82,107,248,1) 0.3%, rgba(167,139,252,1) 90.5% );;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App {
+  background-image: linear-gradient( 109.6deg,  rgba(15,2,2,1) 11.2%, rgba(36,163,190,1) 91.1% );;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.userTitle {
+  font-size: x-large;
+  background-image: linear-gradient( 178.3deg,  rgba(188,251,255,1) 11.5%, rgba(255,253,14,1) 103.1% );
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.userName {
+  display: inline-flex;
+  flex-wrap: wrap;
+  font-size: larger;
   color: white;
+  margin-bottom: 5px;
+  margin-right: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.userDate {
+  display: inline-flex;
+  flex-wrap: wrap;
+  font-size: larger;
+  color: white;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.userActivity {
+  display: inline-flex;
+  flex-wrap: wrap;
+  font-size: larger;
+  color: white;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.userDeadline {
+  display: inline-flex;
+  flex-wrap: wrap;
+  font-size: larger;
+  color: white;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.userDescription {
+  display: inline-flex;
+  flex-wrap: wrap;
+  font-size: larger;
+  color: white;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.inputName {
+  font-size: large;
+  margin-bottom: 3px;
+  margin-right: 3px;
+  margin-left: 3px;
+}
+
+.inputDate {
+  font-size: large;
+  margin-bottom: 3px;
+  margin-right: 3px;
+  margin-left: 3px;
+}
+
+.inputDeadline {
+  font-size: large;
+  margin-bottom: 3px;
+  margin-right: 3px;
+  margin-left: 3px;
+}
+
+.inputActivity {
+  font-size: large;
+  margin-bottom: 3px;
+  margin-right: 3px;
+  margin-left: 3px;
+}
+
+.inputDescription {
+  font-size: large;
+  margin-bottom: 3px;
+  margin-right: 3px;
+  margin-left: 3px;
+}
+
+.logBtn {
+  background-color: white;
+  color: blue;
+  font-size: large;
+  margin-bottom: 3px;
+  margin-right: 3px;
+  margin-left: 3px;
+}
+
+.logBtn:hover {
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+
+.deletebtn {
+  background-color: white;
+  color: black;
+  font-size: x-large;
+  margin-top: 5px;
+  margin-right: 40px;
+}
+
+.deletebtn:hover {
+  background-color: grey;
+  color: gold;
+  cursor: pointer;
+}
+
+.updTName {
+  font-size: large;
+  font-weight: bold;
+  margin-bottom: 3px;
+  margin-right: 3px;
+  margin-left: 3px;
+}
+
+.updTDate {
+  font-size: large;
+  font-weight: bold;
+  margin-bottom: 3px;
+  margin-right: 3px;
+  margin-left: 3px;
+}
+
+.updTDeadline {
+  font-size: large;
+  font-weight: bold;
+  margin-bottom: 3px;
+  margin-right: 3px;
+  margin-left: 3px;
+}
+
+.updTActivity {
+  font-size: large;
+  font-weight: bold;
+  margin-bottom: 3px;
+  margin-right: 3px;
+  margin-left: 3px;
+}
+
+.updTDescription {
+  font-size: large;
+  font-weight: bold;
+  margin-bottom: 3px;
+  margin-right: 3px;
+  margin-left: 3px;
+}
+
+.updUBtn {
+  background-color: white;
+  color: black;
+  font-size: large;
+  margin-top: 10px;
+  margin-right: 55px;
+}
+
+.updUBtn:hover {
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+
+.taskUsers {
+  font-size: larger;
+  font-weight: bold;
+  text-align: left;
+  margin-right: 5px;
+  margin-left: 65px;
 }
